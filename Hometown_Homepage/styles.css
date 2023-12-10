@@ -1,0 +1,85 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+   
+}
+
+img{
+    width: 100px;
+}
+
+.header{
+    background-image: url("https://images.unsplash.com/photo-1526134026104-232655599392?q=80&w=2875&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 200px; /* You must set a specified height */
+    background-position: center;/* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+h1{
+    margin: 0;
+    background-color: #457B9D;
+    font-size: 20px;
+    padding: 10px;
+    color: #F1FAEE;
+    border-radius: 5px;
+}
+h2{
+    color: #F1FAEE;
+    font-size: 12px;
+    background-color: #1D3557;
+    border-radius: 5px;
+    padding: 10px;
+}
+h6{
+    font-size: 14px;
+}
+.activity{
+    background-color: #D1F0B1;
+    padding-top: 20px;   
+}
+.activity h3{
+    margin: 0;
+}
+.section{
+    display: flex;
+    padding: 25px 25px 10px 25px;
+    gap: 70px;
+    
+}
+.each img{
+    border-radius: 50%;
+    width: 100px;
+}
+.guide{
+    background-color: #A8DADC;
+    display: flex;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 300px;
+    padding: 15px;
+}
+.image{
+    margin: auto;
+}
+.your p{
+    font-style: italic;
+}

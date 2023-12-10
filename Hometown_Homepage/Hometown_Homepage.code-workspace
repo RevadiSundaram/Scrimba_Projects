@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../ICodeThis/Nov_16"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Nov_16"
+	}
+}
