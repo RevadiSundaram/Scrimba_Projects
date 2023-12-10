@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #111827;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+h3{
+    margin: 20px;
+    font-size: 40px;
+}
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 50px;
+}
+.numbers{
+    margin: 20px;
+    display: flex;
+    gap: 15px;
+}
+.each{
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 2px;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+    
+    
+}
+.new-game{
+    margin-top: 20px;
+}
+.new-game button{
+    background-color: whitesmoke;
+    color: #111827;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
