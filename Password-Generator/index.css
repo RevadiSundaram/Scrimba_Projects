@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+span{
+    color: #4ADF86;
+}
+h1{
+    color: white;
+    margin-bottom: 0;
+}
+button{
+    align-self: flex-start;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+.btn-1{
+    background-color: #10B981;
+    color: white;
+    margin-top: 20px;
+}
+p{
+    color: #D5D4D8;
+}
+.line{
+    border: 1px solid #2F3E53;
+    margin: 30px 0;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.random{
+    width: 250px;
+    height: 35px;
+    background-color: #273549;
+    color: #10B981;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.copy{
+    height: 35px;
+    background-color: #273549;
+    color: white;
+    padding: 10px;
+}
