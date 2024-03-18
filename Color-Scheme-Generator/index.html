@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <form id="form">
+                <input type="color" id="color-input" />
+                <select name="select-colors" id="select-input">
+                    <option value="monochrome" selected>Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button>Get color scheme</button>
+            </form>
+            <div id="scheme-output" class="scheme-output">
+                <div class="scheme-color" id="scheme-color"></div>
+                <div class="scheme-hex" id="scheme-hex"></div>   
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
