@@ -1,0 +1,49 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <main>
+            <header>
+                <h3>Jimmy's Diner</h3>
+                <p>The best burgers and pizza's in town.</p>
+            </header>
+            <div class="container" id="container">
+            </div>
+            <div class="order" id="order">
+                <h4>Your Order</h4>
+                <div class="order-item" id="order-item">
+                </div>
+                <div class="total">
+                    <p>Total Price</p>
+                    <p id="total-price"></p>
+                </div>
+                <button class="complete" id="complete">Complete your order</button>
+            </div>
+
+            <div class="modal" id="modal">
+                <div class="inside">
+                    <h3>Enter card details</h3>
+                    <form>
+                        <input type="textbox" placeholder="Enter your name" required />
+                        <input type="number" placeholder="Enter your card number" required />
+                        <input type="number" placeholder="Enter your cvv" required />
+                    </form>
+                    <button class="pay" id="payBtn" type="submit">Pay</button>
+                </div>
+                <i class="fa-solid fa-xmark close" id="closeBtn"></i>
+                
+            </div>
+            <div class="final" id="final">
+                <p>Thank you! Your order is on its way! Enjoy :)</p>
+            </div>
+            
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
