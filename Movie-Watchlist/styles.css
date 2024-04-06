@@ -1,0 +1,134 @@
+body{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    border: 5px solid black;
+}
+.header{
+    width: 600px;
+    height: 200px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/dafe/fd94/40637dd9b0240098474b6d8dd9487d8c?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VDoMKLh8VLehnzSX-PH3tI1XhT4q1vFcVPABtr3LPzSUa9zM3GWtubP-dUpu2yPZBDS8mcSXCJD8HztTZdhUme5IR8dow8JrLacDlTL~SJJbnmNRV-meyvu28tGjlApLMqwt-ltagb08pIoQ1DsyQffUobP7Y96Xv8yNnJ3~8Ous0PpINhwPQBxLjoNx8TIyIeLVom3jLJJNcrBOayd8xQEtnkVJH9Zo3pYznpODn20n8Iik08lX09XNJ-a2qzaDwHshoxBWFu8c-q9xYxLJSEVD6FYb591Pl5~vJHyvm5slhvj-jtQfU6SPlL-4vLYhPo4lIelz-Hx1V7~7yH~mQg__");
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: white;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+input{
+    height: 30px;
+    width: 400px;
+    font-family: inherit;
+}
+button{
+    font-family: inherit;
+}
+.submit{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 300px;
+}
+.start{
+    color: #DFDDDD;
+}
+.start i{
+    font-size: 100px;
+}
+.card img{
+    height: 150px;
+    width: 100px;
+}
+.card{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    border-bottom: 1px solid #DFDDDD;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details p{
+    margin: 0;
+}
+.head{
+    display: flex;
+    gap: 10px;
+    
+}
+.title{
+    font-weight: 600;
+    font-size: 17px;
+}
+.head i{
+    color: gold;
+}
+.det{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 13px;
+}
+.plot{
+    font-size: 14px;
+    color: #6c757d;
+}
+.plus{
+    padding: 4px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+.watch{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.watchContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.watchContent h3{
+    color: #DFDDDD;
+    margin-bottom: 0;
+}
